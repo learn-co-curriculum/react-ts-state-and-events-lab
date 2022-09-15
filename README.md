@@ -38,7 +38,8 @@ variables for you to type:
 
 - In **Item.tsx**: The component's props (`{ name, category }`)
 - In **ShoppingList.tsx**: The component's props (`{ item }`)
-  - This will naturally fix the typing in the `items.map(item)` method as well.
+  - This should naturally fix the typing in the `items.map(item)` method as
+    well.
 
 ### Dark Mode Toggle
 
