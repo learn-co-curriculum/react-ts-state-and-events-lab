@@ -1,6 +1,14 @@
 import Item from "./Item";
 
-function ShoppingList({ items }) {
+interface Props {
+  items: {
+    id: number;
+    name: string;
+    category: string;
+  }[];
+}
+
+function ShoppingList({ items }: Props) {
   return (
     <div className="ShoppingList">
       <div className="Filter">

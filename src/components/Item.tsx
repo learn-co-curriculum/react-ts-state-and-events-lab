@@ -1,4 +1,9 @@
-function Item({ name, category }) {
+interface Props {
+  name: string;
+  category: string;
+}
+
+function Item({ name, category }: Props) {
   return (
     <li className="">
       <span>{name}</span>
