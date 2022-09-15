@@ -19,12 +19,26 @@ In this lab, you'll update state and get more practice with the `useState` hook.
 
 It's recommended that you run `npm start` and work on this in the browser
 **before** running tests. Try to get your app to match the demo! Once you've
-built out the components below, run `npm test` or `learn test` to see if your
-code passes the tests.
+built out the components below, run `npm test` to see if your code passes the
+tests.
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-state-and-events-lab/demo.gif)
 
 ## Deliverables
+
+### Add Types
+
+Upon running the lab, TypeScript will give you several errors about variables
+that have an implicit `any` type. Fix those errors by properly typing these
+variables. Read through the code to get an understanding of what type each
+variable should be
+
+In case TypeScript does not tell you explicitly where, here is the list of
+variables for you to type:
+
+- In **Item.tsx**: The component's props (`{ name, category }`)
+- In **ShoppingList.tsx**: The component's props (`{ item }`)
+  - This will naturally fix the typing in the `items.map(item)` method as well.
 
 ### Dark Mode Toggle
 
