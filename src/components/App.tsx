@@ -3,11 +3,11 @@ import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
-  const appClass = darkMode ? "App dark" : "App light";
+  const [darkModeOn, setDarkModeOn] = useState(false);
+  const appClass = darkModeOn ? "App dark" : "App light";
 
   function handleDarkMode() {
-    setDarkMode((darkMode) => !darkMode);
+    setDarkModeOn((darkModeOn) => !darkModeOn);
   }
 
   return (
