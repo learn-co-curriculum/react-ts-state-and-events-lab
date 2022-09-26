@@ -31,7 +31,7 @@ tests.
 Upon running the lab, TypeScript will give you several errors about variables
 that have an implicit `any` type. Fix those errors by properly typing these
 variables. Read through the code to get an understanding of what type each
-variable should be
+variable should be.
 
 In case TypeScript does not tell you explicitly where, here is the list of
 variables for you to type:
